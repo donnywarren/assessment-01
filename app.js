@@ -30,8 +30,14 @@ function capitalize(person) {
 }
 
 function flipBool(arr) {
-  // flipBool
-  return arr.map(val => !val);
+  // flipBool takes an array of Boolean values
+  // it should call map on the array and flip
+  // each Boolean value to its opposite,
+  // e.g., flipBool([true]) => [false]
+  //       flipBool([false, true]) => [true, false]
+  //       etc
+  // then return the new array
+  // Be sure to use map()!
 }
 
 module.exports = {

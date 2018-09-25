@@ -85,6 +85,7 @@ describe('demo functions', () => {
         expect.objectContaining(({name: 'Art Vandelay'})));
     });
   });
+
   describe('flipBool', () => {
     it('takes and returns an array', () => {
       expect(flipBool([])).toEqual(expect.arrayContaining([]));
