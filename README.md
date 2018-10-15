@@ -5,7 +5,7 @@ For this checkpoint, you will implement a few basic functions using the javascri
 *Please read all instructions before beginning*
 
 ## Up and Running
-First, *fork* and *clone* down this repo.  Then, `cd` into the cloned repo.
+First, *fork* and *clone* down this repo.  Then, `cd` into the cloned repo. Run `npm i`.
 
 When it is time to submit, you will commit and push your changes then open a pull request to the original repo.
 
