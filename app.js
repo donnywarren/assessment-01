@@ -1,7 +1,6 @@
 function sum(a, b) {
   // sum takes two arguments
   // and returns their sum
-  
 }
 
 function genNums(n) {
@@ -16,17 +15,10 @@ function greeter(name) {
   // in the form of: Hello, <name>
 }
 
-function capitalize(person) {
-  // capitalize takes an object as an argument
-  // that will have three properties:
-  // 1. a name that includes a first and last name
-  //   separated by a space (string)
-  // 2. an age (number)
-  // 3. an occupation (string)
-  //
-  // it should capitalize the first letter of both
-  // the first and last name, update the person object,
-  // and the person object
+function reverseString(str) {
+  // reverseString takes a string
+  // and should return the reverse of the string
+  // e.g., reverseString('cat') => 'tac'
 }
 
 function flipBool(arr) {
@@ -44,7 +36,7 @@ module.exports = {
   sum,
   genNums,
   greeter,
-  capitalize,
+  reverseString,
   flipBool
 };
 

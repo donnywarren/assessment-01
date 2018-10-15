@@ -2,7 +2,7 @@ const {
   sum,
   genNums,
   greeter,
-  capitalize,
+  reverseString,
   flipBool
 } = require('../app');
 
@@ -56,33 +56,15 @@ describe('demo functions', () => {
       expect(greeter('Mimi')).toEqual('Hello, Mimi');
     });
   });
-  describe('capitalize', () => {
-    let person;
-    beforeEach(() => {
-      person = { 
-        name: 'art vandelay',
-        age: 32,
-        occupation: 'marine biologist'
-      };
+
+  describe('reverseString', () => {
+    it('reverses a simple string', () => {
+      expect(reverseString('cat')).toEqual('tac');
     });
 
-    it('takes a person object', () => {
-      expect(capitalize(person)).toBeTruthy();
-    });
-
-    it('returns a person object', () => {
-      expect(capitalize(person)).toEqual(expect.objectContaining(
-        {
-          name: expect.any(String),
-          age: expect.any(Number),
-          occupation: expect.any(String)
-        }
-      ))
-    });
-
-    it('capitalizes first letter of first and last name', () => {
-      expect(capitalize(person)).toEqual(
-        expect.objectContaining(({name: 'Art Vandelay'})));
+    it('reverses a sentence', () => {
+      str = 'what a great day';
+      expect(reverseString(str)).toEqual('yad taerg a tahw');
     });
   });
 
