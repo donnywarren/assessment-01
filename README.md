@@ -14,7 +14,7 @@ Once you are inside the the cloned repo, open `app.js` in your editor.  Take a m
 
 Go back to the terminal and run `npm test`.  You will notice that there is 1 *failing* test from the `sum` function.  Once you correctly implement `sum` the test will *pass* and the next failing test will appear.  Keep going until either all the tests pass or time is up.  You can exit the test runner by typing `Ctrl + c`
 
-`npm test` will halt on the first failing test.  If you'd like to see the output from all the tests, try running `npm run testAll`.
+`npm test` will halt on the first failing test.  (If you'd like to see the output from all the tests, try running `npm run testAll`.)
 
 ## Submitting
 Once all the tests *pass* or time is up, commit your changes, push your code, and then open a PR to this repo.  
