@@ -38,6 +38,14 @@ describe('demo functions', () => {
     test('returns a single num', () => {
       expect(genNums(1)).toEqual([1]);
     });
+
+    test('returns the first two nums', () => {
+      expect((genNums(2))).toEqual([1, 2]);
+    });
+
+    test('returns first 9 nums', () => {
+      expect(genNums(9)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+    });
   });
   describe('greeter', () => {
     it('returns a string', () => {
