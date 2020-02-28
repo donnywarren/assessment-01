@@ -27,7 +27,10 @@ const genNums = (n) => {
  */
 const greeter = (name) => {
 
+  return (`Hello, ${name}`);
+
 }
+
 
 /*
  * reverseString takes a string
@@ -35,8 +38,15 @@ const greeter = (name) => {
  * e.g., reverseString('cat') => 'tac'
  */
 const reverseString = (str) => {
-
+  let newString = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    newString += str[i];
+  }
+  return (newString);
 }
+
+
+
 
 /*
  * flipBool takes an array of Boolean values
