@@ -1,5 +1,6 @@
 # Checkpoint 01
 _Introduction_
+
 For this checkpoint, you will implement a few basic functions using the javascript fundamentals covered last week.  There are tests to help you through each problem.  See the instructions below for getting the code, running the tests, and submitting your work.  You will have 1 hour to complete everything.
 
 *Please read all instructions before beginning*
