@@ -59,6 +59,16 @@ const reverseString = (str) => {
  * Be sure to use map()!
  */
 const flipBool = (arr) => {
+  const newFlipBool = arr.map(function (word) {
+
+    if (word === "true") {
+      newFlipBool.push("false");
+    } else if (word === "false") {
+      newFlipBool.push("true");
+    }
+  })
+
+  return (newFlipBool);
 
 }
 
