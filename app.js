@@ -13,7 +13,11 @@ const sum = (a, b) => {
  * Ex genNums(2) => [1, 2]
  */
 const genNums = (n) => {
-
+  const newArr = [];
+  for (let i = 1; i <= n; i++) {
+    newArr.push(i);
+  }
+  return (newArr);
 }
 
 /*
