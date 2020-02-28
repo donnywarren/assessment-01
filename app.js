@@ -3,6 +3,7 @@
  * and returns their sum
  */
 const sum = (a, b) => {
+  return (a + b);
 
 }
 
